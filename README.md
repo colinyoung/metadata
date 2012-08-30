@@ -2,16 +2,17 @@
 
 ## Usage
 
+  class User < ActiveRecord::Base
     metadata do |obj|
-      puts obj.title
-      is a: 'production'
-      with crews: obj.crews.count
+      puts obj.name
+      is a: 'user'
+      with friends: obj.friends.count
       stop
     end
     
 Results in
 
-    Asdf is a production with 1 crew.
+    Joe is a user with 37 friends.
 
 ## Installation
 
