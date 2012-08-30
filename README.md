@@ -2,12 +2,13 @@
 
 ## Usage
 
-  class User < ActiveRecord::Base
-    metadata do |obj|
-      puts obj.name
-      is a: 'user'
-      with friends: obj.friends.count
-      stop
+    class User < ActiveRecord::Base
+      metadata do |obj|
+        puts obj.name
+        is a: 'user'
+        with friends: obj.friends.count
+        stop
+      end
     end
     
 Results in
