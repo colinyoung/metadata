@@ -18,6 +18,11 @@ end
 Results in
 
     Joe is a user with 37 friends.
+    
+Why is this useful?
+
+* Translation
+* Other formats
 
 ## Installation
 
