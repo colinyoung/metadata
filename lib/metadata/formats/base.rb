@@ -1,6 +1,8 @@
 module Metadata
   module Formats
     class Base
+      include ActionView::Helpers if defined? Rails
+      
       attr_accessor :output
       attr_accessor :object
       
