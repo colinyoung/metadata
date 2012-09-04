@@ -1,5 +1,7 @@
 # Metadata
 
+![Metadata Build Status from Travis-CI](https://secure.travis-ci.org/colinyoung/metadata.png)
+
 ## Usage
 
 ```ruby
