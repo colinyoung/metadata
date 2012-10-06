@@ -3,6 +3,8 @@ module Metadata
     
     def metadata(args={})
       # Self right now is the object that has metadata on it
+      return if self.class._metadata.nil?
+      
       options = self.class._metadata.merge(args)
       format = Metadata::Format.named(options[:format])
       format.new(self, &options[:block])
